@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block title %}Run a Prediction — HDI Predictor{% endblock %}
+{% block content %}
+
+<div class="predict-wrap">
+  <div class="predict-intro">
+    <h1>Estimate a country's<br>HDI score.</h1>
+    <p>Enter the four underlying indicators below. The trained Linear Regression model returns an estimated HDI score from 0 to 1, along with its development tier.</p>
+
+    <div class="field-legend">
+      <div class="legend-item">
+        <span class="name">Life expectancy</span>
+        <span class="range">0 – 100 yrs</span>
+      </div>
+      <div class="legend-item">
+        <span class="name">Mean years of schooling</span>
+        <span class="range">0 – 20 yrs</span>
+      </div>
+      <div class="legend-item">
+        <span class="name">Expected years of schooling</span>
+        <span class="range">0 – 25 yrs</span>
+      </div>
+      <div class="legend-item">
+        <span class="name">GNI per capita</span>
+        <span class="range">PPP $</span>
+      </div>
+    </div>
+
+    {% if prediction is not none %}
+    <div class="result-card">
+      <div class="result-top">
+        <span class="result-score">{{ "%.3f"|format(prediction) }}</span>
+        <span class="result-category">{{ category }} Human Development</span>
+      </div>
+      <div class="result-gauge scale-track">
+        <div class="scale-seg low"></div>
+        <div class="scale-seg medium"></div>
+        <div class="scale-seg high"></div>
+        <div class="scale-seg veryhigh"></div>
+        <div class="result-marker" style="left: {{ (prediction * 100)|round(1) }}%;"></div>
+      </div>
+      <div class="scale-ticks">
+        <span>0.000</span>
+        <span>0.550</span>
+        <span>0.700</span>
+        <span>0.800</span>
+        <span>1.000</span>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+
+  <form class="predictor-form" method="POST" action="{{ url_for('predict') }}">
+    {% if error %}
+    <div class="error-banner">{{ error }}</div>
+    {% endif %}
+
+    <div class="form-group">
+      <label for="life_expectancy">Life Expectancy <span class="unit">years</span></label>
+      <input type="number" step="0.1" min="0" max="100" id="life_expectancy" name="life_expectancy"
+             placeholder="e.g. 78.5" required
+             value="{{ form_data.life_expectancy if form_data else '' }}">
+    </div>
+
+    <div class="form-group">
+      <label for="mean_schooling">Mean Years of Schooling <span class="unit">years</span></label>
+      <input type="number" step="0.1" min="0" max="20" id="mean_schooling" name="mean_schooling"
+             placeholder="e.g. 11.5" required
+             value="{{ form_data.mean_schooling if form_data else '' }}">
+    </div>
+
+    <div class="form-group">
+      <label for="expected_schooling">Expected Years of Schooling <span class="unit">years</span></label>
+      <input type="number" step="0.1" min="0" max="25" id="expected_schooling" name="expected_schooling"
+             placeholder="e.g. 15.8" required
+             value="{{ form_data.expected_schooling if form_data else '' }}">
+    </div>
+
+    <div class="form-group">
+      <label for="gni_per_capita">GNI Per Capita <span class="unit">PPP $</span></label>
+      <input type="number" step="1" min="1" max="200000" id="gni_per_capita" name="gni_per_capita"
+             placeholder="e.g. 42000" required
+             value="{{ form_data.gni_per_capita if form_data else '' }}">
+    </div>
+
+    <button type="submit" class="form-submit">Predict HDI Score</button>
+  </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block title %}Methodology — HDI Predictor{% endblock %}
+{% block content %}
+
+<div class="about-wrap">
+  <span class="hero-eyebrow">Methodology</span>
+  <h1>How the index — and this model — work.</h1>
+
+  <p>
+    The Human Development Index (HDI) was introduced to argue that a country's progress
+    should be measured by what its people can do and become, not solely by the size of its
+    economy. It combines three dimensions: a long and healthy life, access to knowledge,
+    and a decent standard of living.
+  </p>
+
+  <h2>Inputs used by this model</h2>
+  <p>
+    The trained Linear Regression model takes four numeric indicators and outputs a continuous
+    HDI score between 0 and 1:
+  </p>
+  <div class="formula-block">
+    HDI_Score ≈ β₁·Life_Expectancy + β₂·Mean_Years_Schooling<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;+ β₃·Expected_Years_Schooling + β₄·GNI_Per_Capita + intercept
+  </div>
+  <p>
+    The model was trained on a dataset of 167 countries, with missing values filled using
+    column means and no categorical encoding required for the regression itself, since all four
+    inputs are continuous.
+  </p>
+
+  <h2>Development tiers</h2>
+  <p>Once a score is predicted, it is classified into one of four tiers:</p>
+  <table class="tier-table">
+    <thead>
+      <tr><th>Tier</th><th>Score Range</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="tier-dot veryhigh"></span>Very High</td>
+        <td>0.800 – 1.000</td>
+        <td>Long lifespans, near-universal education, high income levels.</td>
+      </tr>
+      <tr>
+        <td><span class="tier-dot high"></span>High</td>
+        <td>0.700 – 0.799</td>
+        <td>Strong but uneven performance across the three dimensions.</td>
+      </tr>
+      <tr>
+        <td><span class="tier-dot medium"></span>Medium</td>
+        <td>0.550 – 0.699</td>
+        <td>Moderate outcomes; meaningful room for improvement in health or education.</td>
+      </tr>
+      <tr>
+        <td><span class="tier-dot low"></span>Low</td>
+        <td>0.000 – 0.549</td>
+        <td>Significant development challenges across most indicators.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Limitations</h2>
+  <p>
+    This is a simplified, educational re-implementation of the HDI using Linear Regression
+    rather than the UN Development Programme's official geometric-mean methodology. It is
+    intended for learning purposes — to demonstrate an end-to-end ML workflow from raw data
+    to a deployed prediction interface — and should not be used as an authoritative source
+    on any country's actual HDI ranking.
+  </p>
+</div>
+
+{% endblock %}
