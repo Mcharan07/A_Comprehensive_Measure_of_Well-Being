@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block title %}HDI Predictor — A Comprehensive Measure of Well-Being{% endblock %}
+{% block content %}
+
+<section class="hero">
+  <div>
+    <span class="hero-eyebrow">Statistical Composite Index</span>
+    <h1>Measuring a nation's progress by what it gives <em>people</em>, not what it produces.</h1>
+    <p class="lede">
+      The Human Development Index blends life expectancy, education, and income into a single score
+      between 0 and 1. This tool trains a Linear Regression model on those three dimensions
+      to estimate the HDI score and development tier for any set of country indicators.
+    </p>
+    <div class="hero-actions">
+      <a href="{{ url_for('predict') }}" class="btn-primary">Run a Prediction →</a>
+      <a href="{{ url_for('about') }}" class="btn-ghost">How the index works</a>
+    </div>
+  </div>
+
+  <div class="hero-scale">
+    <div class="hero-scale-label">Development Tiers</div>
+    <div class="scale-track">
+      <div class="scale-seg low"></div>
+      <div class="scale-seg medium"></div>
+      <div class="scale-seg high"></div>
+      <div class="scale-seg veryhigh"></div>
+    </div>
+    <div class="scale-ticks">
+      <span>0.000</span>
+      <span>0.550</span>
+      <span>0.700</span>
+      <span>0.800</span>
+      <span>1.000</span>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="num">167</span>
+        <span class="lbl">Countries in training data</span>
+      </div>
+      <div class="hero-stat">
+        <span class="num">4</span>
+        <span class="lbl">Input indicators</span>
+      </div>
+      <div class="hero-stat">
+        <span class="num">Linear</span>
+        <span class="lbl">Regression model</span>
+      </div>
+      <div class="hero-stat">
+        <span class="num">4</span>
+        <span class="lbl">Development tiers</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dimensions">
+  <div class="section-heading">
+    <h2>The Three Dimensions of Development</h2>
+    <span class="count">01 — 03</span>
+  </div>
+  <div class="dim-grid">
+    <div class="dim-card">
+      <span class="dim-index">01 — Health</span>
+      <h3>Life Expectancy at Birth</h3>
+      <p>A long, healthy life is treated as a precondition for everything else a person might do with their development.</p>
+    </div>
+    <div class="dim-card">
+      <span class="dim-index">02 — Knowledge</span>
+      <h3>Mean &amp; Expected Years of Schooling</h3>
+      <p>Combines how much education adults have completed with how much a child entering school today can expect to receive.</p>
+    </div>
+    <div class="dim-card">
+      <span class="dim-index">03 — Living Standards</span>
+      <h3>GNI Per Capita (PPP)</h3>
+      <p>Gross National Income per person, adjusted for purchasing power, used as a proxy for command over economic resources.</p>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

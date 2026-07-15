@@ -1,0 +1,168 @@
+Country,Life_Expectancy,Mean_Years_Schooling,Expected_Years_Schooling,GNI_Per_Capita,HDI_Score,HDI_Category
+Norway,78.7,14.3,17.6,66906.0,0.95,Very High
+Switzerland,76.6,11.5,15.2,85632.0,0.889,Very High
+Ireland,81.0,13.5,15.1,92893.0,0.934,Very High
+Germany,83.3,11.7,15.6,37838.0,0.896,Very High
+Iceland,78.0,12.8,16.5,45386.0,0.9,Very High
+Hong Kong,81.1,11.5,16.0,50645.0,0.901,Very High
+Australia,79.6,13.7,15.7,60996.0,0.926,Very High
+Sweden,80.9,11.2,17.1,36936.0,0.892,Very High
+Singapore,75.7,14.3,18.4,81587.0,0.946,Very High
+Netherlands,78.0,11.3,17.4,55810.0,0.902,Very High
+Denmark,76.2,12.7,15.1,88652.0,0.9,Very High
+Finland,77.6,13.3,16.1,61404.0,0.915,Very High
+United Kingdom,80.5,11.6,18.4,79259.0,0.942,Very High
+Belgium,84.4,14.1,17.1,89531.0,0.965,Very High
+New Zealand,75.9,11.7,15.2,47773.0,0.867,Very High
+Canada,78.9,11.9,17.9,,0.913,Very High
+United States,77.8,12.9,15.5,81153.0,0.915,Very High
+Austria,75.7,,17.7,38910.0,0.91,Very High
+Japan,75.1,13.9,17.5,76030.0,0.93,Very High
+Israel,82.7,11.3,16.3,,0.888,Very High
+South Korea,83.6,13.2,16.2,29449.0,0.908,Very High
+Luxembourg,78.1,12.1,17.6,69629.0,0.924,Very High
+France,83.9,12.7,15.4,74927.0,0.942,Very High
+Slovenia,82.6,13.0,17.7,59565.0,0.951,Very High
+Spain,80.2,12.5,15.1,32552.0,0.878,Very High
+Italy,75.3,13.2,16.1,60599.0,0.901,Very High
+Czechia,84.1,11.9,16.4,77888.0,0.944,Very High
+Greece,77.3,11.3,16.0,36285.0,0.864,Very High
+Estonia,84.3,13.8,17.2,86002.0,0.965,Very High
+Cyprus,83.0,11.7,18.1,62753.0,0.944,Very High
+United Arab Emirates,83.1,,16.1,32703.0,0.92,Very High
+Malta,77.3,12.5,17.9,85251.0,0.93,Very High
+Poland,75.1,12.8,16.5,40547.0,0.88,Very High
+Lithuania,76.2,12.2,18.3,47624.0,0.903,Very High
+Saudi Arabia,80.2,13.5,16.3,93024.0,0.942,Very High
+Portugal,84.6,11.9,16.7,46061.0,0.925,Very High
+Bahrain,77.8,11.1,17.1,60187.0,0.899,Very High
+Latvia,75.5,12.0,18.2,41769.0,0.89,Very High
+Croatia,76.4,12.7,18.4,41943.0,0.904,Very High
+Qatar,81.7,13.7,15.8,75975.0,0.947,Very High
+Slovakia,78.7,13.2,17.2,62504.0,0.931,Very High
+Hungary,75.9,13.9,16.1,38056.0,0.889,Very High
+Chile,75.4,13.1,17.4,26161.0,0.87,Very High
+Argentina,73.6,8.7,14.6,11051.0,0.741,High
+Montenegro,74.8,9.2,15.3,10406.0,0.756,High
+Russia,,8.4,15.3,23353.0,0.776,High
+Romania,71.8,10.1,15.0,17716.0,0.777,High
+Kuwait,73.7,8.8,13.2,23701.0,0.767,High
+Bulgaria,76.3,10.0,13.8,14111.0,0.774,High
+Bahamas,75.1,10.9,15.2,21647.0,0.799,High
+Belarus,74.5,8.3,13.4,23724.0,0.766,High
+Uruguay,74.2,,13.3,19611.0,0.751,High
+Panama,70.0,8.5,14.4,20108.0,0.75,High
+Turkey,74.6,8.7,14.8,12151.0,0.753,High
+Costa Rica,72.3,10.4,14.6,22861.0,0.792,High
+Serbia,74.6,9.8,13.2,14435.0,0.759,High
+Kazakhstan,71.9,8.8,15.4,14879.0,0.758,High
+Mexico,76.2,10.0,15.0,16796.0,0.795,High
+Mauritius,74.0,9.6,13.5,20642.0,0.775,High
+North Macedonia,72.0,8.1,14.6,11099.0,0.727,High
+Georgia,76.6,11.1,15.3,14477.0,0.799,High
+Albania,70.1,11.0,14.1,24916.0,0.787,High
+Brazil,76.7,10.7,13.7,14739.0,0.786,High
+Bosnia and Herzegovina,,9.0,13.4,17744.0,0.768,High
+Iran,76.6,10.2,14.4,9700.0,0.764,High
+Armenia,74.3,11.2,13.4,,0.785,High
+Azerbaijan,76.1,10.4,14.7,20293.0,0.799,High
+China,72.5,8.9,15.0,22176.0,0.778,High
+Peru,76.1,10.9,14.3,16776.0,0.798,High
+Thailand,75.6,10.1,14.8,21926.0,0.799,High
+Ecuador,76.2,9.1,13.9,9644.0,0.744,High
+Colombia,74.0,8.1,14.2,17496.0,0.755,High
+Sri Lanka,72.0,9.9,13.1,8653.0,0.72,High
+Algeria,75.8,9.2,13.3,17139.0,0.767,High
+Mongolia,75.4,8.7,14.6,9493.0,0.742,High
+Dominican Republic,70.4,9.7,14.4,19155.0,0.764,High
+Tunisia,75.1,11.1,14.3,13651.0,0.785,High
+Jamaica,75.6,8.9,14.1,9372.0,0.739,High
+Jordan,70.2,11.1,15.1,20179.0,0.788,High
+Cuba,72.9,8.6,13.4,12379.0,0.731,High
+Paraguay,73.8,10.3,14.7,12898.0,0.77,High
+Maldives,76.7,10.4,14.4,18705.0,0.799,High
+Egypt,72.9,8.8,13.9,21262.0,0.765,High
+Moldova,70.1,8.4,13.1,8712.0,0.7,High
+Vietnam,76.0,10.3,14.2,9712.0,0.76,High
+Ukraine,,9.5,13.4,15592.0,0.756,High
+Indonesia,72.8,10.0,14.6,8792.0,0.74,High
+Palestine,72.6,10.0,14.3,22988.0,0.786,High
+Philippines,74.6,8.5,13.2,19242.0,0.757,High
+Uzbekistan,70.2,9.9,15.4,,0.772,High
+Bolivia,,10.1,14.1,17548.0,0.772,High
+Botswana,76.6,9.2,15.4,23843.0,0.799,High
+Kyrgyzstan,71.4,8.2,13.3,8318.0,0.7,High
+South Africa,70.7,10.2,13.2,13582.0,0.742,High
+Iraq,75.9,8.1,15.0,12932.0,0.757,High
+El Salvador,70.8,10.2,14.6,23355.0,0.783,High
+Tonga,75.1,10.6,13.7,11105.0,0.762,High
+Libya,75.3,10.6,15.5,15220.0,0.797,High
+Marshall Islands,72.6,10.5,13.9,24288.0,0.791,High
+Gabon,76.0,9.4,14.9,21204.0,0.797,High
+Morocco,70.7,10.9,14.3,22463.0,0.786,High
+India,64.6,7.9,11.2,2561.0,0.578,Medium
+Bangladesh,69.2,5.3,11.0,7915.0,0.622,Medium
+Bhutan,69.6,6.8,12.0,5056.0,0.633,Medium
+Nicaragua,64.3,6.1,12.2,6788.0,0.617,Medium
+Vanuatu,68.3,7.5,10.3,5318.0,0.621,Medium
+Eswatini,62.5,6.8,11.4,7559.0,0.615,Medium
+Ghana,64.8,5.4,10.5,6840.0,0.592,Medium
+Guatemala,66.9,5.3,10.3,6495.0,0.595,Medium
+Namibia,62.6,7.6,12.3,2963.0,0.584,Medium
+Kenya,62.7,8.2,11.2,4612.0,0.606,Medium
+Cabo Verde,68.5,8.0,13.2,6794.0,0.67,Medium
+Honduras,65.0,5.3,12.5,5682.0,0.605,Medium
+Myanmar,65.4,7.9,10.4,5307.0,0.614,Medium
+Nepal,62.1,6.5,10.2,3177.0,0.553,Medium
+Cambodia,62.9,7.1,12.4,5825.0,0.618,Medium
+Laos,69.7,6.2,10.9,7451.0,0.633,Medium
+Equatorial Guinea,63.8,8.1,10.0,8028.0,0.625,Medium
+Micronesia,62.3,7.9,11.7,8159.0,0.634,Medium
+Zambia,62.6,6.8,13.1,5481.0,0.616,Medium
+Congo,67.0,7.2,11.5,6077.0,0.631,Medium
+Angola,66.7,7.9,10.1,4101.0,0.603,Medium
+Solomon Islands,69.6,7.8,11.5,6034.0,0.649,Medium
+Tajikistan,64.2,5.6,11.5,4514.0,0.583,Medium
+Pakistan,66.7,5.2,13.1,8121.0,0.635,Medium
+Papua New Guinea,67.6,6.7,11.0,7138.0,0.63,Medium
+Syria,67.5,5.5,12.9,7188.0,0.635,Medium
+Comoros,69.6,7.3,12.0,4883.0,0.637,Medium
+Zimbabwe,69.5,7.8,10.1,2650.0,0.588,Medium
+Rwanda,65.0,7.6,13.2,3357.0,0.611,Medium
+Cameroon,66.8,6.2,13.1,7300.0,0.643,Medium
+Nigeria,68.7,6.5,11.3,4058.0,0.606,Medium
+Tanzania,62.5,7.8,12.6,8198.0,0.643,Medium
+Benin,70.0,6.8,12.5,7885.0,0.663,Medium
+Uganda,68.8,5.8,11.4,3236.0,0.586,Medium
+Senegal,69.6,6.9,10.7,6328.0,0.632,Medium
+Sudan,66.9,6.1,10.4,6327.0,0.606,Medium
+Togo,66.2,7.5,11.7,7357.0,0.643,Medium
+Haiti,66.4,6.8,12.8,4799.0,0.624,Medium
+Madagascar,63.1,5.1,12.4,6035.0,0.596,Medium
+Djibouti,67.6,5.7,10.4,2582.0,0.556,Medium
+Gambia,64.8,6.9,11.3,4993.0,0.605,Medium
+Lesotho,69.2,6.1,11.6,6966.0,0.634,Medium
+Mauritania,65.2,7.0,12.8,7912.0,0.647,Medium
+Timor-Leste,63.2,8.0,11.6,3971.0,0.602,Medium
+Malawi,55.5,5.1,8.6,1257.0,0.44,Low
+Ethiopia,57.6,2.8,7.2,857.0,0.38,Low
+Sierra Leone,51.5,,7.4,1881.0,0.396,Low
+Guinea-Bissau,52.2,3.1,9.9,1547.0,0.426,Low
+Liberia,58.0,2.6,7.6,681.0,0.369,Low
+Yemen,52.0,2.9,7.6,777.0,0.361,Low
+Afghanistan,51.4,3.5,7.7,1328.0,0.397,Low
+Guinea,56.0,4.2,7.1,2198.0,0.443,Low
+Eritrea,57.5,2.3,9.8,2441.0,0.46,Low
+Mozambique,50.7,2.9,9.6,2096.0,0.429,Low
+Burkina Faso,52.2,2.7,8.2,1569.0,0.403,Low
+Sierra,57.4,3.2,8.5,2094.0,0.449,Low
+Mali,50.4,2.8,9.3,2390.0,0.429,Low
+Burundi,56.1,3.7,7.3,1494.0,0.42,Low
+South Sudan,56.4,2.8,7.9,1354.0,0.41,Low
+Chad,50.2,3.0,7.7,1254.0,0.382,Low
+Central African Republic,51.4,4.8,8.9,1958.0,0.445,Low
+Niger,59.5,3.6,7.3,1674.0,0.437,Low
+DR Congo,57.0,4.4,8.4,855.0,0.412,Low
+Somalia,53.4,3.2,9.1,1741.0,0.43,Low
+Ivory Coast,54.3,5.2,8.9,1074.0,0.43,Low
+Congo Republic,51.2,2.5,7.8,921.0,0.364,Low
